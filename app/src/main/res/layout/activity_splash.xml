@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_splahRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".activity.SplashActivity">
+
+    <!--版本名 与版本号号 -->
+    <TextView
+        android:id="@+id/tv_versionName"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:text="番茄版本"/>
+    <TextView
+        android:id="@+id/tv_versionCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="V1.0"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_alignTop="@+id/tv_versionName"
+        />
+
+
+
+</RelativeLayout>

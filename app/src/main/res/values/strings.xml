@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FanSafe</string>
+    <string name="updateUrl">http://119.29.241.112:8080/buynow/myAppData/FanSafe/FanSafe_update_info</string>
+</resources>
