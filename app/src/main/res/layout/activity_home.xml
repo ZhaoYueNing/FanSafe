@@ -5,7 +5,9 @@
               android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
+        android:minHeight="80dp"
+        android:layout_weight="1"
         android:background="@drawable/blue_bkg">
         <ImageView
             android:id="@+id/iv_loge"
@@ -57,7 +59,7 @@
         android:numColumns="2"
         android:id="@+id/gv_home_tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
     </GridView>
 </LinearLayout>
